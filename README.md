@@ -13,21 +13,33 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ### Screenshot
 Desktop -- Theme 1
+
 ![](./screenshot-theme1.png)
-Desktop -- Theme 1
+
+Desktop -- Theme 2
+
 ![](./screenshot-theme2.png)
-Desktop -- Theme 1
+
+Desktop -- Theme 3
+
 ![](./screenshot-theme3.png)
+
 Mobile -- Theme 1
+
 ![](./screenshot-mobile-theme1.png)
+
 Mobile -- Theme 2
+
 ![](./screenshot-mobile-theme2.png)
+
 Mobile -- Theme 3
+
 ![](./screenshot-mobile-theme3.png)
+
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-calculator-app-with-custom-themes-built-with-cssjavascript-SPcQr0m6vr)
+- [Live Site URL](https://nisrine-c.github.io/calculator-app.github.io/)
 
 ## My process
 
