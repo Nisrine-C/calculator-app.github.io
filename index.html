@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Hanken+Grotesk&family=Inter:wght@400;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@800&family=Playfair+Display&family=Space+Mono&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body class="theme-1">
+  <main role="main">
+    <header>
+      <h1>calc</h1>
+      <div class="toggle-container">
+        <h4>THEME</h4>
+        <div class="theme">
+        <div class='numberDiv'>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+        </div>
+        <div class="switch-toggle">
+          <input id="theme-1" name="state-d" type="radio" onclick="toggle(this)" checked="checked"/>
+          <label id="label-1" for="theme-1" ></label>
+          <input id="theme-2" name="state-d" type="radio" onclick="toggle(this)"/>
+          <label id="label-2" for="theme-2" ></label>
+          <input  id="theme-3" name="state-d" type="radio" onclick="toggle(this)"/>
+          <label id="label-3" for="theme-3" class="disabled" ></label>
+        </div>
+      </div>
+      </div>
+    </header>
+    <div class="screen">
+      <p id="screen"></p>
+    </div>
+    <div class="keypad">
+      <input type="button" class="key-7" value="7" onclick="keypad(this)">
+      <input type="button" class="key-8" value="8" onclick="keypad(this)">
+      <input type="button" class="key-9" value="9" onclick="keypad(this)">
+      <input type="button" class="del" value="DEL" onclick="keypad(this)">
+      <input type="button" class="key-4" value="4" onclick="keypad(this)">
+      <input type="button" class="key-5" value="5" onclick="keypad(this)">
+      <input type="button" class="key-6" value="6" onclick="keypad(this)">
+      <input type="button" class="key-plus" value="+" onclick="keypad(this)">
+      <input type="button" class="key-1" value="1" onclick="keypad(this)">
+      <input type="button" class="key-2" value="2" onclick="keypad(this)">
+      <input type="button" class="key-3" value="3" onclick="keypad(this)">
+      <input type="button" class="key-minus" value="-" onclick="keypad(this)">
+      <input type="button" class="key-dot" value="." onclick="keypad(this)">
+      <input type="button" class="key-0" value="0" onclick="keypad(this)">
+      <input type="button" class="key-slash" value="/" onclick="keypad(this)">
+      <input type="button" class="key-x" value="x" onclick="keypad(this)">
+      <input type="button" class="reset" value="RESET" onclick="keypad(this)">
+      <input type="button" class="eql" value="=" onclick="keypad(this)">
+    </div>
+    <div class="attribution">
+      CODED BY <a href="https://github.com/Nisrine-C">NISRINE</a>
+    </div>
+  </main>
+  <script src="./assets/script/script.js"></script> 
+</body>
+</html>

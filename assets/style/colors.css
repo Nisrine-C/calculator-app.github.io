@@ -1,0 +1,128 @@
+:root{
+  /*theme 1*/
+    /*backgrounds*/
+      --very-dark-desaturated-blue-main :hsl(222, 26%, 31%);/*main background*/
+      --very-dark-desaturated-blue-toggle : hsl(223, 31%, 20%);/*toggle background, keypad background*/
+      --very-dark-desaturated-blue-screen : hsl(224, 36%, 15%);/*screen background*/
+    /*keys*/
+      /*Del,Reset*/
+      --desaturated-dark-blue : hsl(225, 21%, 49%);/*key background*/
+      --desaturated-dark-blue-shadow : hsl(224, 28%, 35%);/*key shadow*/
+      --saturated-dark-blue:#A4B3DC;
+      /*=*/
+      --red : hsl(6, 63%, 50%);/*key background, toggle*/
+      --dark-red : hsl(6, 70%, 34%);/*key shadow*/
+      --bright-red: #F26B5B;
+      /*keys*/
+      --light-grayish-orange : hsl(30, 25%, 89%);/*key background*/
+      --grayish-orange:hsl(28, 16%, 65%);/*key shadow*/
+    /*text*/
+      --very-dark-grayish-blue : hsl(221, 14%, 31%);/**/
+      --white:hsl(0, 0%, 100%);/**/
+  /*theme 2*/
+    /*backgrounds*/
+      --light-gray-main : hsl(0, 0%, 90%);/*main background*/
+      --grayish-red-toggle:hsl(0, 5%, 81%);/*toggle background, keypad background*/
+      --very-light-gray-screen : hsl(0, 0%, 93%);/*screen background*/
+    /*keys*/
+      /*Del,Reset*/
+      --dark-moderate-cyan : hsl(185, 42%, 37%);/*key background*/
+      --very-dark-cyan : hsl(185, 58%, 25%);/*key shadow*/
+      --bright-cyan: #64B5BC;
+      /*=*/
+      --orange : hsl(25, 98%, 40%);/*key background, toggle*/
+      --dark-orange : hsl(25, 99%, 27%);/*key shadow*/
+      --bright-orange:#F68A3B;
+      /*keys*/
+      --light-grayish-yellow : hsl(45, 7%, 89%);/*key background*/
+      --dark-grayish-orange : hsl(35, 11%, 61%);/*key shadow*/
+    /*text*/
+      --very-dark-grayish-yellow : hsl(60, 10%, 19%);/**/
+      --white : hsl(0, 0%, 100%);/**/
+  /*theme 3*/
+    /*backgrounds*/
+    --very-dark-violet-main : hsl(268, 75%, 9%);/*main background*/
+    --very-dark-violet-toggle : hsl(268, 71%, 12%);/*toggle background, keypad background, screen background*/
+    /*keys*/
+      /*Del,Reset*/
+      --dark-violet : hsl(281, 89%, 26%);/*key background*/
+      --vivid-magenta : hsl(285, 91%, 52%);/*key shadow*/
+      --bright-magenta: #804299;
+      /*=*/
+      --pure-cyan : hsl(176, 100%, 44%);/*key background, toggle*/
+      --soft-cyan : hsl(177, 92%, 70%);/*key shadow*/
+      --super-bright-cyan: #A8DDE2;
+      /*keys*/
+      --very-dark-violet : hsl(268, 47%, 21%);/*key background*/
+      --dark-magenta : hsl(290, 70%, 36%);/*key shadow*/
+    /*text*/
+      --light-yellow : hsl(52, 100%, 62%);/**/
+      --very-dark-blue : hsl(197, 22%, 34%);/**/
+      --white : hsl(0, 0%, 100%);/**/
+}
+.theme-1{
+  /*backgrounds*/
+  --bg: var(--very-dark-desaturated-blue-main );
+  --txt-clr : var(--white);
+  --keypad-bg: var(--very-dark-desaturated-blue-toggle);
+  --screen-bg: var(--very-dark-desaturated-blue-screen);
+  /*key colors-main theme*/
+  --key-btn-bg:var(--light-grayish-orange);
+  --key-btn-clr:var(--very-dark-grayish-blue);
+  --key-btn-shadow:var(--grayish-orange);
+  --key-btn-active:var(--white);
+
+  --reset-btn-bg:var(--desaturated-dark-blue);
+  --reset-btn-clr:var(--white);
+  --reset-btn-shadow:var(--desaturated-dark-blue-shadow );
+  --reset-btn-active:var(--saturated-dark-blue);
+
+  --eql-btn-bg:var(--red);
+  --eql-btn-clr:var(--white);
+  --eql-btn-shadow:var(--dark-red);
+  --eql-btn-active : var(--bright-red)
+}
+.theme-2{
+  /*backgrounds*/
+  --bg:var(--light-gray-main);
+  --txt-clr : var(--very-dark-grayish-yellow);
+  --keypad-bg: var(--grayish-red-toggle);
+  --screen-bg: var(--very-light-gray-screen);
+  /*key colors-main theme*/
+  --key-btn-bg:var(--light-grayish-yellow);
+  --key-btn-clr:var(--very-dark-grayish-yellow);
+  --key-btn-shadow:var(--dark-grayish-orange);
+  --key-btn-active:var(--white);
+
+  --reset-btn-bg:var(--dark-moderate-cyan);
+  --reset-btn-clr:var(--white);
+  --reset-btn-shadow:var(--very-dark-cyan);
+  --reset-btn-active:var(--bright-cyan);
+
+  --eql-btn-bg:var(--orange);
+  --eql-btn-clr:var(--white);
+  --eql-btn-shadow:var(--dark-orange);
+  --eql-btn-active:var(--bright-orange);
+}
+.theme-3{
+  /*backgrounds*/
+  --bg:var(--very-dark-violet-main);
+  --txt-clr : var(--light-yellow);
+  --keypad-bg: var(--very-dark-violet-toggle);
+  --screen-bg: var(--very-dark-violet-toggle);
+  /*key colors-main theme*/
+  --key-btn-bg:var(--very-dark-violet);
+  --key-btn-clr:var(--light-yellow);
+  --key-btn-shadow:var(--dark-magenta);
+  --key-btn-active:var(--vivid-magenta);
+
+  --reset-btn-bg:var(--dark-violet);
+  --reset-btn-clr:var(--white);
+  --reset-btn-shadow:var(--vivid-magenta);
+  --reset-btn-active:var(--bright-magenta);
+
+  --eql-btn-bg:var(--pure-cyan);
+  --eql-btn-clr:var(--very-dark-blue);
+  --eql-btn-shadow:var(--soft-cyan);
+  --eql-btn-active:var(--super-bright-cyan)
+}
