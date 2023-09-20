@@ -55,4 +55,4 @@ Mobile -- Theme 3
 ## Author
 
 - Website - [Nisrine](https://github.com/Nisrine-C)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Nisrine-C)
+- Frontend Mentor - [@Nisrine-C](https://www.frontendmentor.io/profile/Nisrine-C)
